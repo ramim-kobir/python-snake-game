@@ -1,20 +1,14 @@
 """
-
-
 This is a simple snake game .
 Author : userAnonymous
-GitHub : https://github.com/ramimk0bir
+GitHub : https://github.com/ramim-kobir
 ## Author
 
 * **userAnonymous**
-* GitHub: [ramimK0bir](https://github.com/ramimk0bir)
-
+* GitHub: [ramim-kobir](https://github.com/ramim-kobir)
 ---
 
-
 ## Usage
-
-
 
 You can import and run the game from Python code:
 
@@ -24,9 +18,7 @@ import python_snake_game as snake_game
 snake_game.play()
 
 ```
-
 ---
-
 
 ## Parameters of `play` function
 
@@ -40,12 +32,12 @@ snake_game.play()
 | `posion_mode`       | bool            | False   | Add an unexpected poison food.snake will die after eating this.|
 ---
 """
-__version__ = "1.0.10"
-__author__ = "ramimK0bir"
+__version__ = "1.0.11"
+__author__ = "ramim-kobir"
 __email__ = "kobirbiddut81@gmail.com"
 __license__ = "MIT"
 __description__ = "A simple Snake game written in Python for the command-line interface (CLI). Control the snake with arrow keys, eat food to grow, and avoid running into yourself. Built entirely with Python's standard libraries-no third-party packages required."
-__url__ = "https://github.com/ramimK0bir/python-snake-game.git@v1.0.10"
+__url__ = "https://github.com/ramim-kobir/python-snake-game.git@v1.0.10"
 
 import random 
 import time 
@@ -58,8 +50,6 @@ from pathlib import Path
 
 CONFIG_DIR = Path.home() / ".config" / "python-snake-game"
 CONFIG_FILE = CONFIG_DIR / "keyConfig.json"
-
-
 
 
 def automatic_configure_custom_key():
@@ -419,13 +409,12 @@ class SnakeGame :
                             c += sys.stdin.read(2)
                         if self.game_paused :
                             pass
-                        elif c in [ "[B" ,self.custom_keys[2] ]:
-                            self.pressed_key=2
-                        elif c in ["[A", self.custom_keys[0]] :
+                        elif c in [ "" ,self.custom_keys[2] ]:
+                            self.pre", self.custom_keys[0]] :
                             self.pressed_key=0
-                        elif c in ["[D", self.custom_keys[1]] :
+                        elif c in [", self.custom_keys[1]] :
                             self.pressed_key=1
-                        elif c in ["[C", self.custom_keys[3]] :
+                        elif c in [" ", self.custom_keys[3]] :
                             self.pressed_key=3
                         if c == '\x1b':  # ESC alone to break
                             break
