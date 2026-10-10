@@ -182,4 +182,3 @@ python -m python_snake_game --speed 8 --grid_size 30,20 --invisible_wall --poiso
 This project is open source. Feel free to contribute or modify!
 
 ---
-
