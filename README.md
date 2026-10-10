@@ -10,7 +10,7 @@ Customize speed, grid size, controls, and even add a poison mode for extra chall
 ## Author
 
 * **userAnonymous**
-* GitHub: [ramimK0bir](https://github.com/ramimk0bir)
+* GitHub: [ramim-kobir](https://github.com/ramim-kobir)
 
 ---
 
@@ -27,7 +27,7 @@ pip install python-snake-game
 ### Or directly from GitHub:
 
 ```bash
-pip install git+https://github.com/ramimK0bir/python-snake-game@v1.0.10
+pip install git+https://github.com/ramim-kobir/python-snake-game@v1.0.10
 ```
 
 ---
