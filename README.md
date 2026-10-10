@@ -27,7 +27,7 @@ pip install python-snake-game
 ### Or directly from GitHub:
 
 ```bash
-pip install git+https://github.com/ramim-kobir/python-snake-game@v1.0.10
+pip install git+https://github.com/ramim-kobir/python-snake-game@v1.0.11
 ```
 
 ---
