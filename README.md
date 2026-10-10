@@ -9,7 +9,7 @@ A minimalist snake game written in Python using `asyncio`.
 ## Author
 
 * **userAnonymous**
-* GitHub: [ramimK0bir](https://github.com/ramimk0bir)
+* GitHub: [ramim-kobir](https://github.com/ramim-kobir)
 
 ---
 
@@ -27,7 +27,7 @@ pip install python-snake-game
 
 
 ```bash
-pip install git+https://github.com/ramimK0bir/python-snake-game@v1.0.8
+pip install git+https://github.com/ramim-kobir/python-snake-game@v1.0.8
 
 ```
 
